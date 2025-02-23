@@ -474,12 +474,12 @@ img {
 
 .footer-container {
     display: flex;
+    align-items: baseline;
 }
 
 .footer-info {
     width: 264px;
     height: 112px;
-    align-items: baseline;
     margin-right: 120px;
 }
 
