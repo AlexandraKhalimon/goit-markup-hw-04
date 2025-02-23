@@ -298,6 +298,7 @@ img {
 .team-item {
     background-color: #fff;
     border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-social-links {
@@ -327,7 +328,8 @@ img {
     fill: #f4f4fd;
 }
 
-.team-link:hover {
+.team-link:hover,
+.team-link:focus {
     background-color: #404bbf;
 }
 
@@ -497,7 +499,8 @@ img {
     fill: #f4f4fd;;
 }
 
-.footer-link:hover {
+.footer-link:hover,
+.footer-link:focus {
     background-color: #31d0aa;;
 }
 
